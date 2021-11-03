@@ -23,7 +23,7 @@ Bir uygulama bileşeni bindService() metodunu kullanarak bir hizmete bağlandı�
 
 </p>
 
-
+![alt text](https://github.com/isilay-subasi/Android-Services/blob/main/images/main_page.PNG)
 
 
 
