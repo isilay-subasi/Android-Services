@@ -66,6 +66,7 @@ public class HelloService extends Service {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             stopForeground(true);
         }
+
     }
 
 }

@@ -9,22 +9,29 @@
 
     <Button
         android:id="@+id/startBtn"
+        style="@style/PurpleStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="252dp"
+        android:background="@drawable/button_shape"
         android:text="@string/start_buton"
         android:textAllCaps="false"
+        app:backgroundTint="#4CAF50"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#95C4D662" />
 
     <Button
         android:id="@+id/stopBtn"
+        style="@style/PurpleStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="78dp"
+        android:background="@drawable/button_shape"
         android:text="@string/stop_buton"
         android:textAllCaps="false"
+        app:backgroundTint="#4CAF50"
         app:layout_constraintStart_toStartOf="@+id/startBtn"
         app:layout_constraintTop_toBottomOf="@+id/startBtn" />
 </androidx.constraintlayout.widget.ConstraintLayout>
