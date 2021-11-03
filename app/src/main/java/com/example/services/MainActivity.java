@@ -18,10 +18,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initThis();
-
-        btnStart.setBackgroundResource(R.drawable.button_shape);
-
-
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
